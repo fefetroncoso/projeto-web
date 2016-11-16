@@ -1,6 +1,6 @@
 body{
-	background-image: url(Imagens/planodefundo.jpg);
-	background-repeat: repeat;
+	background-image: url("background.jpg");
+	background-repeat: repeat-x;
 	font-family:Verdana;font-size:0.8em;
 }
 header{
@@ -15,9 +15,10 @@ footer{
     padding:8px;
     background-color:white; 
 }
-section{
+section,article{
 	margin:5px;margin-bottom:5px;padding:8px;
     background-color:white;
+    border: 2px dotted black
 }
 nav{
     margin:2px;
@@ -40,4 +41,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
+}
+li a:hover {
+    background-color: #111;
 }
